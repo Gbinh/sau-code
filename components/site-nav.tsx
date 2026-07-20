@@ -21,8 +21,8 @@ export function SiteNav() {
           <Image
             src="/images/logo.png"
             alt="Logo nhóm Sâu Code"
-            width={96}
-            height={96}
+            width={200}
+            height={200}
             className="h-12 w-12 object-contain mix-blend-multiply md:h-16 md:w-16"
             priority
           />
