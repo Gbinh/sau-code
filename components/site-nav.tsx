@@ -1,5 +1,7 @@
 'use client'
 
+import Image from 'next/image'
+
 const links = [
   { label: 'Về nhóm', href: '#ve-nhom' },
   { label: 'Thành viên', href: '#thanh-vien' },
@@ -14,16 +16,26 @@ export function SiteNav() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-10">
         <a
           href="#top"
-          className="font-serif text-lg font-semibold tracking-tight text-ink"
+          className="flex items-center gap-3.5 text-ink"
         >
-          Sâu Code
+          <Image
+            src="/images/logo.png"
+            alt="Logo nhóm Sâu Code"
+            width={200}
+            height={200}
+            className="h-50 w-50 object-contain mix-blend-multiply md:h-24 md:w-24"
+            priority
+          />
+          <span className="font-serif text-2xl font-semibold tracking-tight md:text-3xl">
+            Sâu Code
+          </span>
         </a>
-        <ul className="hidden items-center gap-8 md:flex">
+        <ul className="hidden items-center gap-8 md:flex lg:gap-10">
           {links.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
-                className="link-underline text-[13px] font-light tracking-wide text-ink"
+                className="link-underline text-base font-light tracking-wide text-ink"
               >
                 {link.label}
               </a>

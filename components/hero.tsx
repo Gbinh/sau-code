@@ -1,9 +1,21 @@
+import Image from 'next/image'
+
 export function Hero() {
   return (
     <section
       id="top"
       className="relative flex min-h-[calc(100svh-65px)] flex-col justify-center px-5 py-20 md:px-10"
     >
+      <Image
+        src="/images/logo.png"
+        alt=""
+        aria-hidden="true"
+        width={520}
+        height={280}
+        priority
+        className="pointer-events-none absolute right-2 top-8 w-48 opacity-90 mix-blend-multiply md:right-10 md:top-16 md:w-[34rem]"
+      />
+
       <div className="mx-auto w-full max-w-6xl">
         <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-gray-mid">
           Sâu Code — Team của 5 người

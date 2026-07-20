@@ -2,29 +2,29 @@ import { Reveal } from './reveal'
 
 const members = [
   {
-    name: 'Minh Anh',
+    name: 'Huỳnh Thanh Trà',
     role: '</Frontend>',
     desc: 'Biến thiết kế thành giao diện sống động.',
   },
   {
-    name: 'Đức Huy',
+    name: 'Đặng Tuấn Anh',
+    role: '</Security>',
+    desc: 'Canh cổng an toàn cho mọi chuyến bay.',
+  },
+  {
+    name: 'Trần Gia Bình',
+    role: '</Tester>',
+    desc: 'Soi từng lỗi trước khi con bướm cất cánh.',
+  },
+  {
+    name: 'Lê Huy Trường',
     role: '</Backend>',
     desc: 'Xây nền móng vững chắc cho mọi hệ thống.',
   },
   {
-    name: 'Thảo Vy',
+    name: 'Nguyễn Thành Nam',
     role: '</UI-UX>',
     desc: 'Vẽ hình hài con bướm trước khi nó bay.',
-  },
-  {
-    name: 'Quang Khải',
-    role: '</Mobile>',
-    desc: 'Đưa sản phẩm vào túi người dùng.',
-  },
-  {
-    name: 'Ngọc Trâm',
-    role: '</QA·DevOps>',
-    desc: 'Canh cổng chất lượng, đảm bảo an toàn khi cất cánh.',
   },
 ]
 
