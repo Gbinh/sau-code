@@ -23,7 +23,7 @@ export function SiteNav() {
             alt="Logo nhóm Sâu Code"
             width={40}
             height={40}
-            className="h-8 w-8 object-contain"
+            className="h-8 w-8 object-contain mix-blend-multiply"
             priority
           />
           <span className="font-serif text-lg font-semibold tracking-tight">

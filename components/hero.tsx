@@ -13,7 +13,7 @@ export function Hero() {
         width={520}
         height={280}
         priority
-        className="pointer-events-none absolute right-2 top-8 w-48 opacity-90 md:right-10 md:top-16 md:w-[34rem]"
+        className="pointer-events-none absolute right-2 top-8 w-48 opacity-90 mix-blend-multiply md:right-10 md:top-16 md:w-[34rem]"
       />
 
       <div className="mx-auto w-full max-w-6xl">
